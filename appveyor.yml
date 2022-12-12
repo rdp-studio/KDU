@@ -6,3 +6,7 @@ clone_folder: c:\projects\kdu
 build:
   project: Source/kdu.sln
   verbosity: normal
+artifacts:
+  # pushing a single file with environment variable in path and "Deployment name" specified
+  - path: Source/output
+    name: output
